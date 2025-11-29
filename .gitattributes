@@ -9,7 +9,3 @@
 *.py linguist-language=Python
 *.sh linguist-language=Shell
 *.yara linguist-language=YARA
-
-# Prevent vendor or generated files from skewing the stats
-node_modules/* linguist-vendored
-package-lock.json linguist-generated
