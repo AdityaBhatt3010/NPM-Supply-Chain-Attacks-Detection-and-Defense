@@ -336,8 +336,8 @@ If you enjoyed this analysis, check out more of my work:
 
 ### 👋 **Goodbye Note**
 
-Thanks for sticking with me through the article! If you found this analysis helpful or learned something new, do consider following my work — I regularly publish deep-dive writeups, malware analysis breakdowns, and cybersecurity research.
-Stay safe, stay curious, stay sharp, and keep hacking *ethically*.
+Thanks for sticking with me through the article! If you found this analysis helpful or learned something new, do consider following my work — I regularly publish deep-dive writeups, malware analysis breakdowns, and cybersecurity research. <br/>
+Stay safe, stay curious, stay sharp, and keep hacking *ethically*. <br/>
 See you in the next one! 🔥 <br/>
 ~ Aditya Bhatt
 
