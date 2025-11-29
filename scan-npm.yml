@@ -1,0 +1,26 @@
+name: npm-supplychain-scan
+on: [push, pull_request]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install minimal Node (no scripts)
+        run: |
+          curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+          sudo apt-get install -y nodejs
+      - name: Install deps without running scripts
+        run: npm ci --ignore-scripts
+      - name: Run IOC scanner
+        run: |
+          chmod +x ioc_scanner.sh
+          ./ioc_scanner.sh . | tee scanner_output.txt
+      - name: Fail on detections
+        run: |
+          if grep -Ei "SUSPECT|pattern|_authToken|eval\(|child_process\.|rm -rf|unlinkSync\(" scanner_output.txt; then
+            echo "Malicious indicators found - failing build"
+            exit 1
+          else
+            echo "No obvious indicators found"
+          fi
