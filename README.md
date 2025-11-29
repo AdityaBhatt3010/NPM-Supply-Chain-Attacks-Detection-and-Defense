@@ -1,4 +1,4 @@
-# NPM Supply-Chain Attacks: Detection & Defense
+# NPM Supply-Chain Attacks: Detection & Defense ⚠️
 
 Modern JavaScript development moves fast — and so do attackers. Over 2024–2025, the npm ecosystem witnessed one of the most aggressive waves of supply‑chain compromises ever seen. Malicious actors weaponized maintainer accounts, trojanized popular packages, and slipped payloads into install‑time hooks to steal credentials, spread laterally, and quietly backdoor development environments.
 
