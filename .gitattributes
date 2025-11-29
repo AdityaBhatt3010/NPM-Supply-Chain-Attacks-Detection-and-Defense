@@ -1,0 +1,15 @@
+# Force Linguist to count YAML correctly
+*.yml linguist-detectable=true
+*.yaml linguist-detectable=true
+
+# Make CI pipeline files be treated as YAML
+.github/workflows/* linguist-language=YAML
+
+# Treat security & config scripts as their real languages
+*.py linguist-language=Python
+*.sh linguist-language=Shell
+*.yara linguist-language=YARA
+
+# Prevent vendor or generated files from skewing the stats
+node_modules/* linguist-vendored
+package-lock.json linguist-generated
