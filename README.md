@@ -4,6 +4,8 @@ Modern JavaScript development moves fast — and so do attackers. Over 2024–20
 
 This article breaks down **what’s happening**, **how these attacks work**, and — most importantly — **how to detect & mitigate them using practical scripts, IOCs, and CI guards**. The tone here is semi‑formal: technical enough for professionals, clear enough for fast decision‑making. Let’s dive in. 🚀
 
+![npm_Cover (2)](https://github.com/user-attachments/assets/7390836b-f4a5-44ff-924c-f46f80b74f2a) <br/>
+
 ---
 
 ## 🔥 The New Reality of npm Supply‑Chain Attacks
