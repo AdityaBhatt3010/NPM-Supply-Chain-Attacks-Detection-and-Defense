@@ -2,7 +2,7 @@
 
 Modern JavaScript development moves fast — and so do attackers. Over 2024–2025, the npm ecosystem witnessed one of the most aggressive waves of supply‑chain compromises ever seen. Malicious actors weaponized maintainer accounts, trojanized popular packages, and slipped payloads into install‑time hooks to steal credentials, spread laterally, and quietly backdoor development environments.
 
-This article breaks down **what’s happening**, **how these attacks work**, and — most importantly — **how to detect & mitigate them using practical scripts, IOCs, and CI guards**. The tone here is semi‑formal: technical enough for professionals, clear enough for fast decision‑making. Let’s dive in. 🚀
+This article breaks down **what’s happening**, **how these attacks work**, and — most importantly — **how to detect & mitigate them using practical scripts, IOCs, and CI guards**. Let’s dive in. 🚀
 
 ![npm_Cover (2)](https://github.com/user-attachments/assets/7390836b-f4a5-44ff-924c-f46f80b74f2a) <br/>
 
